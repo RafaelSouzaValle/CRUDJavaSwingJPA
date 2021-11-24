@@ -19,9 +19,22 @@ public class App {
 		
 		List<Funcionario> lista = FuncionarioRepository.listarFuncionarios();
 		
+		System.out.println("Lista de funcionários antes");
 		for (Funcionario funcionario : lista) {
 			System.out.println(funcionario);
 		}
+		
+//		Funcionario f4 = FuncionarioRepository.getFuncionario(2);
+//		
+////		System.out.println(f4);
+//		
+//		FuncionarioRepository.apagar(f4);
+		
+//		Funcionario f5 = new Funcionario(null, "Fulano05", 56);
+//		
+//		FuncionarioRepository.atualizar(f5, 3);
+//		
+//		FuncionarioRepository.atualizar(80, "Beltrano", 1);
 		
 		
 	}
