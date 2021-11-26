@@ -4,10 +4,13 @@ import java.util.List;
 
 import br.com.digivalle.domain.Funcionario;
 import br.com.digivalle.repository.FuncionarioRepository;
+import br.com.digivalle.view.MainView;
 
 public class App {
 
 	public static void main(String[] args) {
+		
+		MainView.loadFrame();
 		
 		Funcionario f1 = new Funcionario(null, "Fulano01", 36);
 		Funcionario f2 = new Funcionario(null, "Fulano02", 26);
